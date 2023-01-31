@@ -1,0 +1,118 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+
+body{
+    background-color: white;
+}
+
+nav li{
+    display: inline;
+    margin: 20px;
+}
+
+nav ul{
+    background: black;
+    margin: 0px;
+    list-style-type: none;
+    padding: 20px;
+}
+
+nav{
+    display: block;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav a{
+    padding-top: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+.hero-image{
+    background-image: url("../images/results_cover.JPG");
+    height: 100%;
+    background-repeat: no repeat;
+    background-size: cover;
+    position: center;
+    position: relative;
+}
+
+.finish-image{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 97%;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.main-articles{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+#results-header{
+    text-align: center;
+    font-size: 50px;
+}
+
+#years{
+    text-align: center;
+    font-size: 35px;
+}
+
+#list{
+    list-style: none;
+    font-size: 25px;
+}
+
+footer{
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+    height: 5vh;
+    margin-top: 0px;
+}
+
+footer div{
+    text-align: center;
+    color: white;
+}
+
+footer hr{
+    margin-top: 0px;
+    height: 10px;
+    border: 0px;
+    box-shadow: inset 0 10px 10px -10px white
+}
+
+main{
+    overflow: auto;
+}
